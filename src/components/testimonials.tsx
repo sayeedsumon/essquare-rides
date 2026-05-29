@@ -7,7 +7,7 @@ const TESTIMONIALS = [
   },
   {
     quote:
-      "The $1 per mile concept is a game changer. I tried driving my own car on Uber before — this is a completely different setup.",
+      "The extra $1 per mile on Los Angeles trips is a game changer. I tried driving my own car on Uber before — this fleet setup helps me earn more.",
     name: "David R.",
     role: "Essquare Rides Driver, 6 months",
   },

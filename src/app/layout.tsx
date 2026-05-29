@@ -15,11 +15,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Essquare Rides — Drive Black Cars in Los Angeles",
   description:
-    "Drive premium black cars on Uber Black in Los Angeles with $1 per eligible mile, vehicle insurance covered, and 24/7 driver support.",
+    "Drive premium black cars on Uber Black in Los Angeles with an extra $1 per mile Uber fleet advantage, vehicle insurance covered, and 24/7 driver support.",
   openGraph: {
     title: "Essquare Rides — Drive Black Cars in Los Angeles",
     description:
-      "Black car access, $1 per eligible mile, vehicle insurance covered, and 24/7 support.",
+      "Black car access, an extra $1 per mile Uber fleet advantage, vehicle insurance covered, and 24/7 support.",
     type: "website",
     url: "https://www.essquarerides.com",
   },

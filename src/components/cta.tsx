@@ -7,7 +7,7 @@ export function CTA() {
             Ready to drive black cars in Los Angeles?
           </h2>
           <p className="mx-auto mt-4 max-w-xl text-lg text-muted">
-            Join Essquare Rides for black car access, $1 per eligible mile,
+            Drive black cars in Los Angeles with a fleet earning advantage,
             vehicle insurance coverage, and 24/7 driver support.
           </p>
 

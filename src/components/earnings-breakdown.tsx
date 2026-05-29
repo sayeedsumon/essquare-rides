@@ -4,7 +4,7 @@ const ADVANTAGES = [
     label: "Per Mile",
     title: "$1 Per Mile",
     description:
-      "Earn an extra dollar per eligible mile you drive in Los Angeles City.",
+      "Uber adds an extra $1 per mile on Los Angeles trips for our fleet, helping maximize your earnings.",
     accent: "text-accent-light",
   },
   {
@@ -48,8 +48,8 @@ export function EarningsBreakdown() {
           </h2>
           <p className="mt-4 text-lg text-muted">
             The concept is simple: premium black cars, Los Angeles driving,
-            insurance handled, 24/7 support, and an extra dollar per eligible
-            mile you drive.
+            insurance handled, 24/7 support, and an Uber fleet advantage that
+            helps you earn more per mile.
           </p>
         </div>
 

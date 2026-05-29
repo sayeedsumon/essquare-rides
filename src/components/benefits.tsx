@@ -2,7 +2,7 @@ const BENEFITS = [
   {
     title: "Built for Active Drivers",
     description:
-      "The more quality hours and eligible miles you drive, the stronger your weekly opportunity can become.",
+      "Uber adds an extra $1 per mile on Los Angeles trips for our fleet, helping active drivers earn more than regular Uber drivers.",
     icon: "M12 2v20M17 5H9.5a3.5 3.5 0 000 7h5a3.5 3.5 0 010 7H6",
   },
   {
@@ -52,7 +52,8 @@ export function Benefits() {
           </h2>
           <p className="mt-4 text-lg text-muted">
             Essquare Rides gives drivers a practical setup: black car access,
-            insurance coverage, flexible shifts, and real support.
+            an Uber fleet earning advantage, insurance coverage, flexible
+            shifts, and real support.
           </p>
         </div>
 

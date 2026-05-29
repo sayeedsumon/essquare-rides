@@ -26,10 +26,9 @@ export function Hero() {
 
             <p className="mt-6 max-w-2xl text-lg leading-relaxed text-muted md:text-xl">
               Join Essquare Rides and drive premium black cars on Uber Black.
-              Earn{" "}
-              <strong className="text-white">$1 per eligible mile</strong> you
-              drive in Los Angeles City, with vehicle insurance covered and
-              24/7 support from our team.
+              For Los Angeles trips, Uber adds an extra{" "}
+              <strong className="text-white">$1 per mile</strong> for our
+              fleet, helping drivers earn more than regular Uber drivers.
             </p>
 
             <p className="mt-4 max-w-2xl text-sm leading-relaxed text-slate-400">
@@ -68,18 +67,22 @@ export function Hero() {
               </a>
             </div>
 
-            <div className="mt-10 grid max-w-2xl grid-cols-3 gap-3">
+            <div className="mt-10 grid max-w-2xl grid-cols-1 gap-3 sm:grid-cols-3">
               {[
-                ["$1/mile", "Eligible LA miles"],
+                ["$1/mile", "LA trips"],
                 ["Uber Black", "Premium trips"],
                 ["Insurance", "Vehicle covered"],
               ].map(([value, label]) => (
                 <div
                   key={value}
-                  className="rounded-xl border border-white/10 bg-white/[0.04] p-4"
+                  className="min-w-0 rounded-xl border border-white/10 bg-white/[0.04] px-4 py-4 text-center sm:text-left"
                 >
-                  <p className="text-lg font-bold text-white">{value}</p>
-                  <p className="mt-1 text-xs text-muted">{label}</p>
+                  <p className="break-words text-lg font-bold leading-tight text-white">
+                    {value}
+                  </p>
+                  <p className="mt-1 text-xs leading-snug text-muted">
+                    {label}
+                  </p>
                 </div>
               ))}
             </div>
