@@ -67,25 +67,6 @@ export function Hero() {
               </a>
             </div>
 
-            <div className="mt-10 grid max-w-2xl grid-cols-1 gap-3 sm:grid-cols-3">
-              {[
-                ["$1/mile", "LA trips"],
-                ["Uber Black", "Premium trips"],
-                ["Insurance", "Vehicle covered"],
-              ].map(([value, label]) => (
-                <div
-                  key={value}
-                  className="min-w-0 rounded-xl border border-white/10 bg-white/[0.04] px-4 py-4 text-center sm:text-left"
-                >
-                  <p className="break-words text-lg font-bold leading-tight text-white">
-                    {value}
-                  </p>
-                  <p className="mt-1 text-xs leading-snug text-muted">
-                    {label}
-                  </p>
-                </div>
-              ))}
-            </div>
           </div>
 
           <div className="relative">
@@ -107,18 +88,6 @@ export function Hero() {
                   <span>Black Car</span>
                   <span>Los Angeles</span>
                 </div>
-              </div>
-              <div className="mt-5 grid grid-cols-3 gap-3 text-center">
-                {["Premium fleet", "Insured vehicle", "24/7 support"].map(
-                  (item) => (
-                    <div
-                      key={item}
-                      className="rounded-xl border border-white/10 bg-white/[0.04] px-3 py-3 text-xs font-medium text-slate-300"
-                    >
-                      {item}
-                    </div>
-                  ),
-                )}
               </div>
             </div>
           </div>
