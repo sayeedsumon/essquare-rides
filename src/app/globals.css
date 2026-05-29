@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+:root {
+  --background: #07090d;
+  --foreground: #f1f5f9;
+  --accent: #2563eb;
+  --accent-light: #67e8f9;
+  --card-bg: #10151f;
+  --card-border: #263241;
+  --muted: #9aa7b8;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-accent: var(--accent);
+  --color-accent-light: var(--accent-light);
+  --color-card-bg: var(--card-bg);
+  --color-card-border: var(--card-border);
+  --color-muted: var(--muted);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background:
+    linear-gradient(180deg, #090d14 0%, #07090d 38%, #0b0d10 100%);
+  color: var(--foreground);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 40px rgba(59, 130, 246, 0.6);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.6s ease-out forwards;
+}
+
+.animate-pulse-glow {
+  animation: pulse-glow 3s ease-in-out infinite;
+}
+
+.gradient-text {
+  background: linear-gradient(135deg, #67e8f9, #60a5fa 45%, #facc15);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.glass-card {
+  background: rgba(16, 21, 31, 0.72);
+  backdrop-filter: blur(14px);
+  border: 1px solid rgba(148, 163, 184, 0.14);
+}
+
+.hero-gradient {
+  background:
+    linear-gradient(135deg, rgba(37, 99, 235, 0.2) 0%, transparent 34%),
+    linear-gradient(225deg, rgba(20, 184, 166, 0.12) 0%, transparent 42%),
+    var(--background);
+}
+
+.cta-gradient {
+  background:
+    linear-gradient(135deg, rgba(37, 99, 235, 0.18) 0%, rgba(20, 184, 166, 0.08) 55%, rgba(250, 204, 21, 0.06) 100%);
+}
